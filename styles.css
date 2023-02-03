@@ -141,7 +141,7 @@ a{
 
 /* le footer*/
 .foot{
-    background-image: url(/images/footer.jpeg);
+    background-image: url(./images/footer.jpeg);
     background-repeat: no-repeat;
     background-size:cover;
     width: 100%;
