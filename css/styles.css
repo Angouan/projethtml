@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+/*la bannière de page*/
+
+.banner{
+    width: 100%;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/bg.jpg);
+    background-size: cover;
+    margin-bottom:0px;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+/* BOUTON SOUSCRIPTION*/
+
+.btn{
+    margin-left: 700px;
+   font-size: 1.2em;
+   font-weight: 700;
+   justify-content: flex-end;
+   background-color: orange;
+   border-radius: 15px;
+   padding: 7px;
+}
+
+.btn a{
+    color: white;
+    font-weight:700;
+}
+
+.btn:hover{
+    background-color:rgba(225, 225, 225, 0.5);
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(19, 38, 118);
+    padding: 0px 20px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+
+
+
+.navbar{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color:rgba(225, 225, 225, 0.5);
+}
+
+
+.navbar ul{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+
+ a:hover{
+    background-color:rgba(225, 225, 225, 0.5);
+}
+
+.navbar ul li {
+    list-style: none;
+    font-size:1.2em;
+    font-weight: 600;
+    padding: 10px;
+
+}
+
+/* MES LIENS AU SURVOL*/
+
+.navbar ul li :hover{
+    background-color:rgba(225, 225, 225, 0.5);
+}
+
+
+/* MON BACKDROP-FILTER*/ 
+
+.box{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: center;
+    line-height: 1;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    width: 72%;
+    height: 100px;
+    padding: 20px 40px;
+
+}
+
+.box .text{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    color: orange;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4em;
+    font-weight: 600;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: Scroll 2s linear infinite ;
+
+}
+
+@keyframes Scroll {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+
+
+/* le footer*/
+.foot{
+    background-image: url(/images/footer.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    min-height: 14vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 850px;
+}
+
